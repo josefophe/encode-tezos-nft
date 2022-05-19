@@ -38,10 +38,10 @@ npm run dev
 You must provide a valid app URL for the CORS options:
 
 ```js
-// Replace `https://my-cool-nft-app.com` with the URL of your app
+// Replace `http://localhost:8080` with the URL of your app
 
 const corsOptions = {
-  origin: ["http://localhost:8082", "https://my-cool-nft-app.com"],
+  origin: ["http://localhost:8080"
   optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 };
 ```
