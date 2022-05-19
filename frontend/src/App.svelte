@@ -8,7 +8,7 @@
   let Tezos: TezosToolkit;
   let wallet: BeaconWallet;
   const walletOptions = {
-    name: "Illic et Numquam",
+    name: "Encode Tezos",
     preferredNetwork: NetworkType.HANGZHOUNET
   };
   let userAddress: string;
@@ -202,7 +202,7 @@
 
 <main>
   <div class="container">
-    <h1>Illic Et Numquam</h1>
+    <h1>Encode Tezos</h1>
     {#if userAddress}
       <div>
         <div class="user-nfts">
